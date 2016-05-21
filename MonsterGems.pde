@@ -3,8 +3,11 @@
  * May 20, 2016 "The Riddler" on FiveThirtyEight.com.
  * 
  * Written in Processing.
+ *
+ * I think this method will underestimate the expected value as it misses the
+ * "tail" of increasing common gem counts. An analytic solution is preferred.
  * 
- * Typical output:
+ * Typical output (1 billion trials):
  * Average common gems per gem set completion: 3.649862241
  */
 
